@@ -1,0 +1,81 @@
+		/*L'ensemble du site'*/
+                body{	/*Set color the background*/
+			background-color:#AB1D37;
+                        /*Set color the police*/
+			color:gold;
+		}
+                
+                /*All titles*/
+                h1{
+                    font-size: 72px;
+                }
+		h1,h2{	/*Center text*/
+			text-align:center;
+                        /*Shaping the border*/
+			border-bottom:3px solid gold;
+                        font-family: 'Indie Flower', cursive;
+		}
+                .infoperso>ul{
+                        list-style-type: none;
+                    
+                }
+
+
+
+                /*Section Compétence*/
+		.comp{	/*Set color the background*/
+			
+                        /*Move to the left*/
+			float:left;
+                        width: 50%;
+		}
+
+                /*Section Experience*/
+		.XP{	/*Set color the background*/
+			
+                        /*Move to the right*/
+			float:left;
+                        width: 50%;
+		}
+               
+
+                /*Section Diplôme*/
+		.dip{	/*Set color the background*/
+			
+                        /*Move to the top*/
+			float:left;
+                        width: 50%;
+		}
+                /*Section Loisirs*/
+		.loi{/*Set color the background*/
+                         
+                         /*Move to the bottom*/
+			 float:left;
+                         width: 50%;
+		}
+                /*Navbar*/
+                nav>ul{
+                    background-color: gold;
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    /*Remove points*/
+                    list-style:none;
+                    /*Set color the police*/
+                    color:gold;
+                }
+                nav>ul>li{
+                    float: left;
+                }
+                nav>ul>li a{
+                    display: block;
+                    color: #AB1D37;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                }
+                nav>ul>li a:hover{
+                    background-color: #AB1D37;
+                    color:gold;
+                }
