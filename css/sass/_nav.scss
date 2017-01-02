@@ -1,0 +1,36 @@
+/*Navbar*/
+                ul{
+                    list-style-type: none;
+                    margin: 10px;
+                }
+                nav{
+                    box-shadow: 10px 10px 5px #888888;
+                }
+                nav>ul{
+                    position: fixed;
+                    top: 0px;
+                    width: 100%;
+                    background-color: gold;
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    /*Remove points*/
+                    list-style:none;
+                    /*Set color the police*/
+                    color:gold;
+                }
+                nav>ul>li{
+                    float: left;
+                }
+                nav>ul>li a{
+                    display: block;
+                    color: #AB1D37;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none!important;
+                }
+                nav>ul>li a:hover{
+                    background-color: #AB1D37;
+                    color:gold;
+                }

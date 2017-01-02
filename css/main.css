@@ -1,0 +1,81 @@
+/*Navbar*/
+ul {
+  list-style-type: none;
+  margin: 10px; }
+
+nav {
+  box-shadow: 10px 10px 5px #888888; }
+
+nav > ul {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: gold;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*Remove points*/
+  list-style: none;
+  /*Set color the police*/
+  color: gold; }
+
+nav > ul > li {
+  float: left; }
+
+nav > ul > li a {
+  display: block;
+  color: #AB1D37;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none !important; }
+
+nav > ul > li a:hover {
+  background-color: #AB1D37;
+  color: gold; }
+
+.infoperso {
+  width: 300px;
+  height: 150px;
+  border: 3px solid gold;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 10px;
+  padding-top: 35px; }
+
+.infoperso > ul {
+  /*Set style list*/
+  list-style-type: none; }
+
+/*L'ensemble du site'*/
+body {
+  /*Set color the background*/
+  background-color: #AB1D37;
+  /*Set color the police*/
+  color: gold; }
+
+/*All titles*/
+h1 {
+  /*set size police*/
+  font-size: 72px;
+  /*set border with 3 pixels and color*/
+  border-top: 3px solid gold; }
+
+h1, h2 {
+  /*Center text*/
+  text-align: center;
+  margin-top: 47px;
+  /*Set border with*/
+  border-bottom: 3px solid gold;
+  /*Set Police Type*/
+  font-family: 'Indie Flower', cursive; }
+
+.conteneur {
+  width: 60%;
+  height: 200px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end; }
+
+/*# sourceMappingURL=main.css.map */

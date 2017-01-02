@@ -1,0 +1,8 @@
+.infoperso{
+                    @include personalNews
+                }
+.infoperso>ul{
+                    /*Set style list*/
+                        list-style-type: none;
+                    
+                }

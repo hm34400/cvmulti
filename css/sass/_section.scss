@@ -1,0 +1,33 @@
+/*L'ensemble du site'*/
+
+                body{	/*Set color the background*/
+			background-color:$primaryColor;
+                        /*Set color the police*/
+			color:$textColor;
+		}
+                /*All titles*/
+                h1{/*set size police*/
+                    font-size: 72px;
+                    /*set border with 3 pixels and color*/
+                    border-top: 3px solid $textColor;
+                }
+		h1,h2{	/*Center text*/
+			text-align:center;
+			margin-top: 47px;
+                        /*Set border with*/
+			border-bottom:3px solid $textColor;
+                        /*Set Police Type*/
+                        font-family: 'Indie Flower', cursive;
+		}
+		.conteneur{
+                    width: 60%;
+                    height: 200px;
+                    margin-top: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+
+
+               
